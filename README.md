@@ -6,21 +6,6 @@ Instead of observing radio waves from space, this tool maps telescope baselines 
 
 ---
 
-## ✨ Features
-
-- 🗺️ Interactive world map for placing telescopes
-- 📡 Predefined telescope arrays:
-  - VLBA (Very Long Baseline Array)
-  - EVN (European VLBI Network)
-- 🖱️ Click-to-add telescopes directly on the map
-- ♻️ Reset system for clearing the array
-- 🎧 WAV audio upload and processing
-- 📊 Fourier-domain sampling based on baseline geometry
-- 🔁 Signal reconstruction from sparse frequency coverage
-- 📉 Clean spectral comparison (original vs sampled)
-
----
-
 ## 🧠 Concept
 
 This project builds an analogy between:
@@ -61,7 +46,7 @@ pip install streamlit numpy scipy matplotlib folium streamlit-folium
 
 ## ▶️ Run the application
 
-streamlit run run5.py
+streamlit run vlbaudio.py
 
 ---
 
@@ -96,22 +81,3 @@ The app shows a frequency-domain comparison:
 - Masked spectrum from VLBI baselines  
 
 ---
-
-## 🧩 Future ideas
-
-- uv-plane visualization  
-- Earth rotation synthesis  
-- CLEAN algorithm demo  
-- Image reconstruction instead of audio  
-
----
-
-## 🧑‍🚀 Author
-
-Built as an educational bridge between VLBI, Fourier analysis, and signal processing intuition.
-
----
-
-## 📜 License
-
-MIT License
